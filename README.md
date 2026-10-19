@@ -6,34 +6,34 @@ I created this project to practice my **HTML, CSS, and JavaScript** skills.
 
 Features
 
--> Addition
--> Subtraction
--> Multiplication
--> Division
--> Clear button
--> Delete button
--> Decimal numbers
--> Simple calculator display
--> Handles division by zero
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Clear button
+- Delete button
+- Decimal numbers
+- Simple calculator display
+- Handles division by zero
 
 Built With
 
--> HTML
--> CSS
--> JavaScript
+- HTML
+- CSS
+- JavaScript
 
 What I Learned
 
 While making this project, I learned:
 
--> How to use JavaScript functions
--> How to use event listeners
--> How to work with buttons
--> How to update the calculator display
--> How to perform mathematical operations
--> How to use `if` statements
--> How to work with variables
--> How to handle user input
+- How to use JavaScript functions
+- How to use event listeners
+- How to work with buttons
+- How to update the calculator display
+- How to perform mathematical operations
+- How to use `if` statements
+- How to work with variables
+- How to handle user input
 
 How It Works
 
