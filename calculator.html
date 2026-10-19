@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <div class="display" id="display">0</div>
+
+        <div class="buttons">
+
+            <button class="clear" data-action="clear">AC</button>
+            <button data-action="delete">DEL</button>
+            <button class="operator" data-operator="/">÷</button>
+
+            <button data-number="7">7</button>
+            <button data-number="8">8</button>
+            <button data-number="9">9</button>
+            <button class="operator" data-operator="*">×</button>
+
+            <button data-number="4">4</button>
+            <button data-number="5">5</button>
+            <button data-number="6">6</button>
+            <button class="operator" data-operator="-">−</button>
+
+            <button data-number="1">1</button>
+            <button data-number="2">2</button>
+            <button data-number="3">3</button>
+            <button class="operator" data-operator="+">+</button>
+
+            <button data-number="0" class="zero">0</button>
+            <button data-number=".">.</button>
+            <button class="equal" data-action="equals">=</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #202020;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 340px;
+    padding: 20px;
+
+    background: #111;
+    border-radius: 20px;
+}
+
+.display {
+    width: 100%;
+    height: 90px;
+
+    background: #222;
+    color: white;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    font-size: 40px;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
+}
+
+button {
+    height: 65px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    background: #333;
+    color: white;
+}
+
+button:hover {
+    background: #444;
+}
+
+.operator {
+    background: orange;
+}
+
+.operator:hover {
+    background: darkorange;
+}
+
+.clear {
+    grid-column: span 2;
+
+    background: crimson;
+}
+
+.equal {
+    background: green;
+}
+
+</style>
+    
+
