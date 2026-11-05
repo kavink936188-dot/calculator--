@@ -4,6 +4,7 @@ const buttons = document.querySelector(".buttons");
 let firstNumber = "";
 let operator = "";
 let secondNumber = "";
+let resetDisplay=true;
 
 let shouldResetDisplay = false;
 
@@ -45,6 +46,9 @@ function operate(a, operator, b) {
             return multiply(a, b);
 
         case "/":
+            return divide(a, b);
+
+        case "÷":
             return divide(a, b);
 
         default:
